@@ -1,0 +1,124 @@
+*,html,body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto",sans-serif;
+}
+.Terluar{
+  display: flex;
+  width: 100%;
+  height: 110vh;
+  background-color: lightslategrey;
+}
+
+.wraper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 1.5em;
+  padding: 15px;
+  width: 100%;
+  height: 80px;
+  background-color: #222;
+  text-transform: capitalize;
+}
+.firstName{
+  color: white;
+  font-weight: 800;
+}
+.lastName{
+  color: crimson;
+  font-weight: 800;
+  padding-left: 5px;
+}
+.boxTerluar{
+  display: flex;
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 98%;
+  height: 93%;
+  background-color: whitesmoke
+}
+.Text{
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+  color: black;
+  text-align: center;
+}
+h4{
+  font-size: 40px;
+}
+p{
+  margin-top: 16px;
+  font-size: 20px;
+}
+.box2{
+  display: flex;
+  margin-top: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex-direction: row;
+
+  width: 100%;
+  justify-content: center;
+  border: 2px solid #222;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.textPersegi{
+  color: white;
+  font-weight: 800;
+  margin-top: 30px;
+}
+.textPersegi2{
+  color: crimson;
+  font-weight: 800;
+  padding-left: 5px;
+  margin-top: 30px;
+}
+
+.color222{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  background-color: #222;
+  visibility: hidden;
+}
+.color333{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  background-color: #222;
+  visibility: visible;
+}
+
+.kelPersegi{
+  color: white;
+  font-weight: 800;
+  margin-top: 30px;
+  visibility: visible;
+}
+.kelPersegi2{
+  color: crimson;
+  font-weight: 800;
+  padding-left: 5px;
+  margin-top: 30px;
+  visibility: visible;
+}
+
+.bentukKotak{
+  display: flex;
+  position: absolute;
+  margin-top: 150px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+}
